@@ -1,0 +1,138 @@
+body
+{
+	background-image: url("bg.png");
+}
+#wrap
+{
+	border: 0px solid black;
+	height: 1200px;
+	width: 1300px;
+	margin: auto;
+}
+#header
+{
+	background-color:white;
+	height: 200px;
+	color: blue;
+	font-size: 100px;
+	text-align: center;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 320px;
+	height: 40px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+h3
+{
+text-align: center;
+}
+p
+{
+	text-align: justify;
+}
+
+#main
+{
+	width: 1280px;
+	height: 300px;
+	border:0px solid red; 
+	margin:auto;
+}
+#first
+{
+	float: left;
+	background-color:white ;
+	width: 415px;
+	height: 150px;
+	margin: 5px;
+}
+#second
+{
+	float: left;
+	background-color:white ;
+	width: 415px;
+	height: 150px;
+	margin: 5px;
+}
+#third
+{
+	float: left;
+	background-color:white ;
+	width: 415px;
+	height: 150px;
+	margin: 5px;
+}
+
+
+#footer
+{
+height: 150px;
+background-color: black;
+width: 1280px;
+margin: auto;
+margin: 5px;
+margin-bottom: 15px;
+}
+#logo_left
+{
+float: l
+border: none; solid red;
+display: inline-block;	
+}
+
+#first_1
+{
+	float: left;
+	background-color:black;
+	width: 415px;
+	height: 140px;
+	margin: 5px;
+	color: white;
+}
+#second_2
+{
+	float: left;
+	background-color:black ;
+	width: 415px;
+	height: 140px;
+	margin: 5px;
+	color: white;
+}
+#third_3
+{
+	float: left;
+	background-color:black;
+	width: 415px;
+	height: 140px;
+	margin: 5px;
+	color: white;
+}
+
+
+
